@@ -1,0 +1,30 @@
+### Module positions - created on Fri Apr 14 13:40:42 2023 ###
+### Printed by Pcbnew version kicad 5.1.9+dfsg1-1~bpo10+1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val           Package                      PosX       PosY       Rot  Side
+C1        100_nF        C_0603_1608Metric       -121.0000     5.1980  270.0000  top
+C2        1_uF          C_0603_1608Metric       -118.4600     5.1980  270.0000  top
+C3        100_nF        C_0603_1608Metric       -102.4450    13.5900    0.0000  top
+C4        100_nF        C_0603_1608Metric       -110.8400    42.3550   90.0000  top
+C5        1_uF          C_0603_1608Metric       -115.9200    42.3550   90.0000  top
+C6        100_nF        C_0603_1608Metric       -118.4600    42.3550   90.0000  top
+C7        100_nF        C_0603_1608Metric       -140.4450    33.9100  180.0000  top
+C8        100_nF        C_0603_1608Metric       -140.4450    13.5900  180.0000  top
+C9        100nF         C_0603_1608Metric          7.8800    14.2250  270.0000  top
+C10       10nF          C_0603_1608Metric          9.8800    14.2250  270.0000  top
+C11       10uF          CP_EIA-3216-18_Kemet-A  -115.9200     4.6230  270.0000  top
+C12       10uF          CP_EIA-3216-18_Kemet-A  -113.3800    42.9100   90.0000  top
+C13       10uF          CP_EIA-3216-18_Kemet-A  -141.0200    17.4000  180.0000  top
+C14       100_nF        C_0603_1608Metric       -105.2250    41.0000    0.0000  top
+C15       10uF          CP_EIA-3216-18_Kemet-A    15.7300     2.5000    0.0000  top
+J1        650906-5      6509065                    0.0000     0.0000    0.0000  top
+J2        MC68882_PLCC  3M_8468-11B1-RK-TP      -121.0000    23.7500  270.0000  top
+J4        5535098-5     5535098-5                  3.9500    49.7000    0.0000  top
+R1        0             R_0603_1608Metric       -121.0000    42.3550   90.0000  top
+R2        0             R_0603_1608Metric       -131.1600    42.3550   90.0000  top
+R4        10k           R_0603_1608Metric       -116.8250    46.7500    0.0000  top
+R5        10k           R_0603_1608Metric       -113.1840    46.7500  180.0000  top
+S1        SSAJ110100    SW_SSAJ110100           -115.0000    50.0000  180.0000  top
+U1        74LVC1G3157   SOT-23-6                -106.0000    44.5000  270.0000  top
+## End

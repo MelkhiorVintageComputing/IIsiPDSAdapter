@@ -1,0 +1,9 @@
+Part/Designator,Manufacture Part Number/Seeed SKU,Quantity,URL,LCSC ref
+C10,0603B103K500NT,1,https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0603B103K500NT_C57112.html,
+"R1,R2",0603WAF0000T5E,2,,
+"R4,R5",0603WAF1002T5E,2,,
+"C1,C3,C4,C6,C7,C8,C9,C14",CC0603KRX7R9BB104,8,https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html,
+"C2,C5",CL10A105KB8NNNC,2,,
+U1,SN74LVC1G3157DBVR,1,,
+S1,SSAJ110100,1,,
+"C11,C12,C13,C15",TAJA106K016RNJ,4,,

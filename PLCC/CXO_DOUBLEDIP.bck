@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CXO_DIP8+14
+D Crystal Clock Oscillator, DIP14-style metal package
+K Crystal Clock Oscillator
+F http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf
+$ENDCMP
+#
+$CMP GTXO-14T
+D Crystal Clock Oscillator, DIP14-style metal package
+K Crystal Clock Oscillator
+F http://www.golledge.com/pdf/products/tcxos/gtxo14.pdf
+$ENDCMP
+#
+$CMP TFT680
+D Crystal Clock Oscillator, DIP14-style metal package
+K Crystal Clock Oscillator
+F http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf
+$ENDCMP
+#
+#End Doc Library
