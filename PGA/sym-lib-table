@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name 5535098-5)(type Legacy)(uri ${KIPRJMOD}/5535098-5.lib)(options "")(descr ""))
+  (lib (name 8468-11B1-RK-TP)(type Legacy)(uri ${KIPRJMOD}/8468-11B1-RK-TP.lib)(options "")(descr ""))
+  (lib (name MC68882_PLCC)(type Legacy)(uri ${KIPRJMOD}/MC68882_PLCC.lib)(options "")(descr ""))
+  (lib (name OS102011MA1QN1)(type Legacy)(uri ${KIPRJMOD}/OS102011MA1QN1.lib)(options "")(descr ""))
+  (lib (name IIsiPDSAdapter-rescue)(type Legacy)(uri ${KIPRJMOD}/IIsiPDSAdapter-rescue.lib)(options "")(descr ""))
+  (lib (name MC68882RC40A)(type Legacy)(uri ${KIPRJMOD}/MC68882RC40A.lib)(options "")(descr ""))
+  (lib (name CXO_DOUBLEDIP)(type Legacy)(uri ${KIPRJMOD}/CXO_DOUBLEDIP.lib)(options "")(descr ""))
+  (lib (name SSAJ110100)(type Legacy)(uri ${KIPRJMOD}/SSAJ110100.lib)(options "")(descr ""))
+)

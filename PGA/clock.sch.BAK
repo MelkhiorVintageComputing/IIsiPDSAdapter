@@ -1,0 +1,121 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3950 2750 3950 2450
+$Comp
+L power:GND #PWR0172
+U 1 1 64D5A010
+P 3175 2750
+F 0 "#PWR0172" H 3175 2500 50  0001 C CNN
+F 1 "GND" H 3180 2577 50  0000 C CNN
+F 2 "" H 3175 2750 50  0001 C CNN
+F 3 "" H 3175 2750 50  0001 C CNN
+	1    3175 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0173
+U 1 1 64D5AF8F
+P 3950 3350
+F 0 "#PWR0173" H 3950 3100 50  0001 C CNN
+F 1 "GND" H 3955 3177 50  0000 C CNN
+F 2 "" H 3950 3350 50  0001 C CNN
+F 3 "" H 3950 3350 50  0001 C CNN
+	1    3950 3350
+	1    0    0    -1  
+$EndComp
+Text GLabel 4250 3050 2    50   Input Italic 0
+CLK_32_000
+NoConn ~ 3650 3050
+$Comp
+L Device:C C?
+U 1 1 64F8FAD7
+P 3425 2600
+AR Path="/5F679B53/64F8FAD7" Ref="C?"  Part="1" 
+AR Path="/5F6B165A/64F8FAD7" Ref="C?"  Part="1" 
+AR Path="/612D28DD/64F8FAD7" Ref="C?"  Part="1" 
+AR Path="/61B62C00/64F8FAD7" Ref="C?"  Part="1" 
+AR Path="/64F8CFB4/64F8FAD7" Ref="C13"  Part="1" 
+AR Path="/6424DB31/64F8FAD7" Ref="C10"  Part="1" 
+F 0 "C10" H 3450 2700 50  0000 L CNN
+F 1 "10nF" H 3450 2500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3463 2450 50  0001 C CNN
+F 3 "" H 3425 2600 50  0000 C CNN
+F 4 "www.yageo.com" H 3425 2600 50  0001 C CNN "MNF1_URL"
+F 5 "0603B103K500NT" H 3425 2600 50  0001 C CNN "MPN"
+F 6 "603-CC603KRX7R8BB103" H 3425 2600 50  0001 C CNN "Mouser"
+F 7 "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0603B103K500NT_C57112.html" H 3425 2600 50  0001 C CNN "URL"
+	1    3425 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 2450 3425 2450
+$Comp
+L Device:C C?
+U 1 1 64F9279B
+P 3175 2600
+AR Path="/618F532C/64F9279B" Ref="C?"  Part="1" 
+AR Path="/618E8C75/64F9279B" Ref="C?"  Part="1" 
+AR Path="/64F8CFB4/64F9279B" Ref="C11"  Part="1" 
+AR Path="/6424DB31/64F9279B" Ref="C9"  Part="1" 
+F 0 "C9" H 3200 2700 50  0000 L CNN
+F 1 "100nF" H 3200 2500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3213 2450 50  0001 C CNN
+F 3 "" H 3175 2600 50  0000 C CNN
+F 4 "www.yageo.com" H 3175 2600 50  0001 C CNN "MNF1_URL"
+F 5 "CC0603KRX7R9BB104" H 3175 2600 50  0001 C CNN "MPN"
+F 6 "603-CC603KRX7R8BB104" H 3175 2600 50  0001 C CNN "Mouser"
+F 7 "?" H 3175 2600 50  0001 C CNN "Digikey"
+F 8 "" H 3175 2600 50  0001 C CNN "LCSC"
+F 9 "?" H 3175 2600 50  0001 C CNN "Koncar"
+F 10 "TB" H 3175 2600 50  0001 C CNN "Side"
+F 11 "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html" H 3175 2600 50  0001 C CNN "URL"
+	1    3175 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3425 2450 3175 2450
+Connection ~ 3425 2450
+Wire Wire Line
+	3425 2750 3175 2750
+Connection ~ 3175 2750
+$Comp
+L Oscillator:SG-5032CCN X1
+U 1 1 641BE3FE
+P 3950 3050
+F 0 "X1" H 4200 3225 50  0000 L CNN
+F 1 "SG5032CCN" H 4175 2875 50  0000 L CNN
+F 2 "Oscillator:Oscillator_SMD_SeikoEpson_SG8002LB-4Pin_5.0x3.2mm" H 4650 2700 50  0001 C CNN
+F 3 "" H 3850 3050 50  0001 C CNN
+F 4 "SG5032CCN 32.000000M-HJGAB" H 3950 3050 50  0001 C CNN "MPN"
+F 5 "ECS-3961 serie should have the same footprint and support 5V" H 3950 3050 50  0001 C CNN "Comment"
+F 6 "S5D25.000000A20F30T (25.000 MHz) should also work - the A seems ot mean 5V, B is 3V3" H 3950 3050 50  0001 C CNN "Comment2"
+	1    3950 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0174
+U 1 1 6427DA1B
+P 3175 2450
+F 0 "#PWR0174" H 3175 2300 50  0001 C CNN
+F 1 "+5V" H 3190 2623 50  0000 C CNN
+F 2 "" H 3175 2450 50  0001 C CNN
+F 3 "" H 3175 2450 50  0001 C CNN
+	1    3175 2450
+	1    0    0    -1  
+$EndComp
+Connection ~ 3175 2450
+$EndSCHEMATC

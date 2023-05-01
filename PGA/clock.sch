@@ -1,0 +1,160 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3950 2750 3950 2450
+$Comp
+L power:GND #PWR0172
+U 1 1 64D5A010
+P 3175 2750
+F 0 "#PWR0172" H 3175 2500 50  0001 C CNN
+F 1 "GND" H 3180 2577 50  0000 C CNN
+F 2 "" H 3175 2750 50  0001 C CNN
+F 3 "" H 3175 2750 50  0001 C CNN
+	1    3175 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0173
+U 1 1 64D5AF8F
+P 3950 3350
+F 0 "#PWR0173" H 3950 3100 50  0001 C CNN
+F 1 "GND" H 3955 3177 50  0000 C CNN
+F 2 "" H 3950 3350 50  0001 C CNN
+F 3 "" H 3950 3350 50  0001 C CNN
+	1    3950 3350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3650 3050
+$Comp
+L Device:C C?
+U 1 1 64F8FAD7
+P 3425 2600
+AR Path="/5F679B53/64F8FAD7" Ref="C?"  Part="1" 
+AR Path="/5F6B165A/64F8FAD7" Ref="C?"  Part="1" 
+AR Path="/612D28DD/64F8FAD7" Ref="C?"  Part="1" 
+AR Path="/61B62C00/64F8FAD7" Ref="C?"  Part="1" 
+AR Path="/64F8CFB4/64F8FAD7" Ref="C13"  Part="1" 
+AR Path="/6424DB31/64F8FAD7" Ref="C10"  Part="1" 
+F 0 "C10" H 3450 2700 50  0000 L CNN
+F 1 "10nF" H 3450 2500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3463 2450 50  0001 C CNN
+F 3 "" H 3425 2600 50  0000 C CNN
+F 4 "www.yageo.com" H 3425 2600 50  0001 C CNN "MNF1_URL"
+F 5 "0603B103K500NT" H 3425 2600 50  0001 C CNN "MPN"
+F 6 "603-CC603KRX7R8BB103" H 3425 2600 50  0001 C CNN "Mouser"
+F 7 "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_FH-Guangdong-Fenghua-Advanced-Tech-0603B103K500NT_C57112.html" H 3425 2600 50  0001 C CNN "URL"
+	1    3425 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 2450 3425 2450
+$Comp
+L Device:C C?
+U 1 1 64F9279B
+P 3175 2600
+AR Path="/618F532C/64F9279B" Ref="C?"  Part="1" 
+AR Path="/618E8C75/64F9279B" Ref="C?"  Part="1" 
+AR Path="/64F8CFB4/64F9279B" Ref="C11"  Part="1" 
+AR Path="/6424DB31/64F9279B" Ref="C9"  Part="1" 
+F 0 "C9" H 3200 2700 50  0000 L CNN
+F 1 "100nF" H 3200 2500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3213 2450 50  0001 C CNN
+F 3 "" H 3175 2600 50  0000 C CNN
+F 4 "www.yageo.com" H 3175 2600 50  0001 C CNN "MNF1_URL"
+F 5 "CC0603KRX7R9BB104" H 3175 2600 50  0001 C CNN "MPN"
+F 6 "603-CC603KRX7R8BB104" H 3175 2600 50  0001 C CNN "Mouser"
+F 7 "?" H 3175 2600 50  0001 C CNN "Digikey"
+F 8 "" H 3175 2600 50  0001 C CNN "LCSC"
+F 9 "?" H 3175 2600 50  0001 C CNN "Koncar"
+F 10 "TB" H 3175 2600 50  0001 C CNN "Side"
+F 11 "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html" H 3175 2600 50  0001 C CNN "URL"
+	1    3175 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3425 2450 3175 2450
+Connection ~ 3425 2450
+Wire Wire Line
+	3425 2750 3175 2750
+Connection ~ 3175 2750
+Connection ~ 3175 2450
+Text GLabel 4250 3050 2    50   Input Italic 0
+CLK_32_000
+$Comp
+L CXO_DOUBLEDIP:CXO_DIP8+14 X1
+U 1 1 642D69C3
+P 3950 3050
+F 0 "X1" H 4175 3300 50  0000 L CNN
+F 1 "CXO_DIP8+14" H 4175 2900 50  0000 L CNN
+F 2 "For_SeeedStudio:CXO_DIP8+14" H 4400 2700 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf" H 3850 3050 50  0001 C CNN
+F 4 "DNP" H 3950 3050 50  0000 C CNN "DNP"
+	1    3950 3050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3650 3150
+$Comp
+L power:+5V #PWR?
+U 1 1 642FFFF4
+P 2800 2450
+AR Path="/64F0AB25/642FFFF4" Ref="#PWR?"  Part="1" 
+AR Path="/6424DB31/642FFFF4" Ref="#PWR0185"  Part="1" 
+F 0 "#PWR0185" H 2800 2300 50  0001 C CNN
+F 1 "+5V" V 2815 2578 50  0000 L CNN
+F 2 "" H 2800 2450 50  0001 C CNN
+F 3 "" H 2800 2450 50  0001 C CNN
+	1    2800 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 642FFFFA
+P 2800 2750
+AR Path="/64F0AB25/642FFFFA" Ref="#PWR?"  Part="1" 
+AR Path="/6424DB31/642FFFFA" Ref="#PWR0186"  Part="1" 
+F 0 "#PWR0186" H 2800 2500 50  0001 C CNN
+F 1 "GND" V 2805 2622 50  0000 R CNN
+F 2 "" H 2800 2750 50  0001 C CNN
+F 3 "" H 2800 2750 50  0001 C CNN
+	1    2800 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 64300001
+P 2800 2600
+AR Path="/64F0AB25/64300001" Ref="C?"  Part="1" 
+AR Path="/6424DB31/64300001" Ref="C15"  Part="1" 
+F 0 "C15" H 2918 2646 50  0000 L CNN
+F 1 "10uF" H 2918 2555 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A" H 2838 2450 50  0001 C CNN
+F 3 "~" H 2800 2600 50  0001 C CNN
+F 4 "TAJA106K016RNJ" H 2800 2600 50  0001 C CNN "MPN"
+	1    2800 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0174
+U 1 1 6427DA1B
+P 3175 2450
+F 0 "#PWR0174" H 3175 2300 50  0001 C CNN
+F 1 "+5V" H 3190 2623 50  0000 C CNN
+F 2 "" H 3175 2450 50  0001 C CNN
+F 3 "" H 3175 2450 50  0001 C CNN
+	1    3175 2450
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -13,3 +13,8 @@ MC68882 FPU tested and working at 25 MHz (on-board oscillator).
 So far 32 MHz attempts have failed, perhaps due to board/assmembly issue, perhaps due to the FPU itself. Higher speed not attempted.
 
 The PDS expansion has not yet been tested due to lack of hardware.
+
+
+## PGA
+
+Untested, WiP

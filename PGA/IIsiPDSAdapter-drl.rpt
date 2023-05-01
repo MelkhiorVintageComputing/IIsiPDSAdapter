@@ -1,0 +1,32 @@
+Drill report for /home/dolbeau/MAC/IIsiPDSAdapter/PGA/IIsiPDSAdapter.kicad_pcb
+Created on Wed Apr 26 15:41:07 2023
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'IIsiPDSAdapter-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.30mm  0.012"  (9 holes)
+    T2  0.40mm  0.016"  (60 holes)
+    T3  0.76mm  0.030"  (68 holes)
+    T4  0.80mm  0.031"  (6 holes)
+    T5  1.07mm  0.042"  (120 holes)
+    T6  1.07mm  0.042"  (120 holes)
+    T7  2.89mm  0.114"  (2 holes)
+    T8  2.90mm  0.114"  (2 holes)
+
+    Total plated holes count 387
+
+
+Drill file 'IIsiPDSAdapter-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0.80mm  0.031"  (2 holes)
+
+    Total unplated holes count 2
