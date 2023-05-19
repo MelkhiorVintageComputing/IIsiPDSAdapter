@@ -17,4 +17,8 @@ The PDS expansion has not yet been tested due to lack of hardware.
 
 ## PGA
 
-Untested, WiP
+MC68882 FPU tested and working at 20 MHz (system clock)
+
+MC68882 FPU tested and working at 40 MHz (on-board oscillator), using a genuine XC68882RC40
+
+The PDS expansion has not yet been tested due to lack of hardware.
