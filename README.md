@@ -10,10 +10,7 @@ MC68882 FPU tested and working at 20 MHz (system clock)
 
 MC68882 FPU tested and working at 25 MHz (on-board oscillator).
 
-So far 32 MHz attempts have failed, perhaps due to board/assmembly issue, perhaps due to the FPU itself. Higher speed not attempted.
-
-The PDS expansion has not yet been tested due to lack of hardware.
-
+MC68882 FPU tested at 32 MHz, but if the adapter is stand-alone Error 11 occurs when using the FPU. When a [IIsiFPGA](https://github.com/rdolbeau/IIsiFPGA) is plugged in the second slot, 32 MHz seems to work reliably. Current hypothesis is some signal integrity issue when no PDS board is plugged in the adapter.
 
 ## PGA
 
