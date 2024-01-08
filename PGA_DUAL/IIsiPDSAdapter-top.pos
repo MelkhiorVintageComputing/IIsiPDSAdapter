@@ -1,0 +1,28 @@
+### Module positions - created on Mon Jan  8 18:10:13 2024 ###
+### Printed by Pcbnew version kicad 5.1.9+dfsg1-1~bpo10+1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val          Package                      PosX       PosY       Rot  Side
+C1        100_nF       C_0603_1608Metric       -138.3050    16.1300  180.0000  top
+C2        100_nF       C_0603_1608Metric       -138.3050    26.2900  180.0000  top
+C3        100_nF       C_0603_1608Metric       -115.9200    40.9000   90.0000  top
+C4        100_nF       C_0603_1608Metric       -103.7150    26.2900    0.0000  top
+C5        1_uF         C_0603_1608Metric       -138.3050    32.6400  180.0000  top
+C6        100_nF       C_0603_1608Metric       -132.4300    40.9000   90.0000  top
+C7        100_nF       C_0603_1608Metric       -112.6050     7.2370    0.0000  top
+C8        1_uF         C_0603_1608Metric       -116.6950     7.2370  180.0000  top
+C9        100nF        C_0603_1608Metric       -121.0300    -0.7250  270.0000  top
+C10       10nF         C_0603_1608Metric       -119.0300    -0.7250  270.0000  top
+C11       10uF         CP_EIA-3216-18_Kemet-A  -103.1400    23.7500    0.0000  top
+C12       10uF         CP_EIA-3216-18_Kemet-A  -138.8800    35.1800  180.0000  top
+C13       10uF         CP_EIA-3216-18_Kemet-A  -138.8800    12.3200  180.0000  top
+C14       100_nF       C_0603_1608Metric       -121.0000    42.5250   90.0000  top
+C15       10uF         CP_EIA-3216-18_Kemet-A  -116.0000    -0.1500  270.0000  top
+C16       1_uF         C_0603_1608Metric       -113.3800    40.9000   90.0000  top
+R1        0            R_0603_1608Metric       -138.3550    22.4800  180.0000  top
+R2        0            R_0603_1608Metric       -138.3550    18.6700  180.0000  top
+R4        10k          R_0603_1608Metric       -116.8250    46.7500    0.0000  top
+R5        10k          R_0603_1608Metric       -113.1840    46.7500  180.0000  top
+S1        SSAJ110100   SW_SSAJ110100           -115.0000    50.0000  180.0000  top
+U1        74LVC1G3157  SOT-23-6                -125.5000    41.7500    0.0000  top
+## End
