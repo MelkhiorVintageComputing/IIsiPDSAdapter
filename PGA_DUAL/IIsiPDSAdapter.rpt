@@ -1,4 +1,4 @@
-## Footprint report - date Mon Jan  8 18:10:18 2024
+## Footprint report - date Thu Apr 11 15:54:57 2024
 ## Created by Pcbnew version kicad 5.1.9+dfsg1-1~bpo10+1
 ## Unit = mm, Angle = deg.
 
@@ -9,11 +9,62 @@ upper_left_corner 43.807857 85.482500
 lower_right_corner 255.028335 170.692501
 $EndBOARD
 
+$MODULE "S1"
+reference "S1"
+value "SSAJ110100"
+footprint "For_SeeedStudio:SW_SSAJ110100"
+attribut smd
+position 85.000000 100.000000  orientation 180.00
+layer front
+$PAD "None"
+Shape Circle Layer both
+position  1.500000  0.000000  size  0.800000  0.800000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "None"
+Shape Circle Layer both
+position -1.500000  0.000000  size  0.800000  0.800000  orientation 0.00
+drill  0.800000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "S2"
+Shape Rect Layer front
+position -3.000000  0.075000  size  0.900000  0.700000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "S1"
+Shape Rect Layer front
+position  3.000000  0.075000  size  0.900000  0.700000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "1"
+Shape Rect Layer front
+position -1.000000 -1.280000  size  0.600000  0.510000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "C"
+Shape Rect Layer front
+position  0.000000 -1.280000  size  0.600000  0.510000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$PAD "2"
+Shape Rect Layer front
+position  1.000000 -1.280000  size  0.600000  0.510000  orientation 0.00
+drill  0.000000
+shape_offset  0.000000  0.000000
+$EndPAD
+$EndMODULE  S1
+
 $MODULE "J4"
 reference "J4"
 value "5535098-5"
 footprint "For_SeeedStudio:5535098-5"
-attribut none
+attribut smd
 position 214.120000 125.800000  orientation 0.00
 layer front
 $PAD "122"
@@ -750,57 +801,6 @@ shape_offset  0.000000  0.000000
 $EndPAD
 $EndMODULE  J4
 
-$MODULE "S1"
-reference "S1"
-value "SSAJ110100"
-footprint "For_SeeedStudio:SW_SSAJ110100"
-attribut smd
-position 85.000000 100.000000  orientation 180.00
-layer front
-$PAD "None"
-Shape Circle Layer both
-position  1.500000  0.000000  size  0.800000  0.800000  orientation 0.00
-drill  0.800000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "None"
-Shape Circle Layer both
-position -1.500000  0.000000  size  0.800000  0.800000  orientation 0.00
-drill  0.800000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "S2"
-Shape Rect Layer front
-position -3.000000  0.075000  size  0.900000  0.700000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "S1"
-Shape Rect Layer front
-position  3.000000  0.075000  size  0.900000  0.700000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "1"
-Shape Rect Layer front
-position -1.000000 -1.280000  size  0.600000  0.510000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "C"
-Shape Rect Layer front
-position  0.000000 -1.280000  size  0.600000  0.510000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$PAD "2"
-Shape Rect Layer front
-position  1.000000 -1.280000  size  0.600000  0.510000  orientation 0.00
-drill  0.000000
-shape_offset  0.000000  0.000000
-$EndPAD
-$EndMODULE  S1
-
 $MODULE "C16"
 reference "C16"
 value "1 uF"
@@ -1105,7 +1105,7 @@ $MODULE "J2"
 reference "J2"
 value "MC68882_PGA"
 footprint "For_SeeedStudio:MC68882_PGA"
-attribut none
+attribut smd
 position 79.000000 126.250000  orientation 180.00
 layer front
 $PAD "A10"
@@ -1625,7 +1625,7 @@ $EndMODULE  C10
 
 $MODULE "C9"
 reference "C9"
-value "100nF"
+value "100 nF"
 footprint "Capacitor_SMD:C_0603_1608Metric"
 attribut smd
 position 78.970000 150.725000  orientation 270.00
@@ -1690,7 +1690,7 @@ $MODULE "J1"
 reference "J1"
 value "650906-5"
 footprint "For_SeeedStudio:6509065"
-attribut none
+attribut smd
 position 200.000000 150.000000  orientation 0.00
 layer front
 $PAD "MH2"
@@ -2473,7 +2473,7 @@ $MODULE "J3"
 reference "J3"
 value "5535098-5"
 footprint "For_SeeedStudio:5535098-5"
-attribut none
+attribut smd
 position 203.950000 100.300000  orientation 0.00
 layer front
 $PAD "122"

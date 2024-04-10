@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/dolbeau/MAC/IIsiPDSAdapter/PGA_DUAL/IIsiPDSAdapter.sch</source>
-    <date>Mon Jan  8 18:10:37 2024</date>
+    <date>Thu Apr 11 15:55:16 2024</date>
     <tool>Eeschema 5.1.9+dfsg1-1~bpo10+1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -76,7 +76,6 @@
       <footprint>For_SeeedStudio:6509065</footprint>
       <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=650906&amp;DocType=Customer+Drawing&amp;DocLang=English&amp;DocFormat=pdf&amp;PartCntxt=650906-5</datasheet>
       <fields>
-        <field name="DNP">DNP</field>
         <field name="Description">DIN 41612 Connectors PLUG 120 POS R/A TYPE C</field>
         <field name="Height">11.1</field>
         <field name="MPN">650906-5</field>
@@ -97,9 +96,9 @@
       <fields>
         <field name="Arrow Part Number">5535098-5</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/5535098-5/te-connectivity</field>
-        <field name="DNP">DNP</field>
         <field name="Description">120 Position Din Connector Receptacle, Female Sockets Gold Through Hole</field>
         <field name="Height">11.51</field>
+        <field name="MPN">5535098-5</field>
         <field name="Manufacturer_Name">TE Connectivity</field>
         <field name="Manufacturer_Part_Number">5535098-5</field>
         <field name="Mouser Part Number">571-5535098-5</field>
@@ -116,9 +115,9 @@
       <fields>
         <field name="Arrow Part Number">5535098-5</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/5535098-5/te-connectivity</field>
-        <field name="DNP">DNP</field>
         <field name="Description">120 Position Din Connector Receptacle, Female Sockets Gold Through Hole</field>
         <field name="Height">11.51</field>
+        <field name="MPN">5535098-5</field>
         <field name="Manufacturer_Name">TE Connectivity</field>
         <field name="Manufacturer_Part_Number">5535098-5</field>
         <field name="Mouser Part Number">571-5535098-5</field>
@@ -134,7 +133,6 @@
       <fields>
         <field name="Comment">MPN is for a socket rather than the 68882 itself</field>
         <field name="Comment2">Layouts: https://www.precidip.com/data/files/pdf/products/pga-bga-plcc-sockets_en.pdf</field>
-        <field name="DNP">DNP</field>
         <field name="MPN">510-83-068-10-061101</field>
       </fields>
       <libsource lib="MC68882_PLCC" part="MC68882_PGA" description=""/>
@@ -363,7 +361,7 @@
       <tstamp>64F8FAD7</tstamp>
     </comp>
     <comp ref="C9">
-      <value>100nF</value>
+      <value>100 nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <fields>
         <field name="Digikey">?</field>

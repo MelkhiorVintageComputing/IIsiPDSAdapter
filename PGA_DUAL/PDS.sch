@@ -424,7 +424,8 @@ F 8 "571-5535098-5" H 2675 550 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5535098-5?qs=H1z6Bf8FAOuC4CcPF8q3gg%3D%3D" H 2675 450 50  0001 L CNN "Mouser Price/Stock"
 F 10 "5535098-5" H 2675 350 50  0001 L CNN "Arrow Part Number"
 F 11 "https://www.arrow.com/en/products/5535098-5/te-connectivity" H 2675 250 50  0001 L CNN "Arrow Price/Stock"
-F 12 "DNP" H 1825 1050 50  0001 C CNN "DNP"
+F 12 "" H 1825 1050 50  0001 C CNN "DNP"
+F 13 "5535098-5" H 1825 1050 50  0001 C CNN "MPN"
 	1    1825 1050
 	1    0    0    -1  
 $EndComp
@@ -847,7 +848,8 @@ F 8 "571-5535098-5" H 5300 550 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5535098-5?qs=H1z6Bf8FAOuC4CcPF8q3gg%3D%3D" H 5300 450 50  0001 L CNN "Mouser Price/Stock"
 F 10 "5535098-5" H 5300 350 50  0001 L CNN "Arrow Part Number"
 F 11 "https://www.arrow.com/en/products/5535098-5/te-connectivity" H 5300 250 50  0001 L CNN "Arrow Price/Stock"
-F 12 "DNP" H 4450 1050 50  0001 C CNN "DNP"
+F 12 "" H 4450 1050 50  0001 C CNN "DNP"
+F 13 "5535098-5" H 4450 1050 50  0001 C CNN "MPN"
 	1    4450 1050
 	1    0    0    -1  
 $EndComp

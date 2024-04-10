@@ -26,7 +26,7 @@ F 3 "" H 3750 3600 50  0001 L BNN
 F 4 "510-83-068-10-061101" H 3750 3600 50  0001 L BNN "MPN"
 F 5 "MPN is for a socket rather than the 68882 itself" H 3750 3600 50  0001 C CNN "Comment"
 F 6 "Layouts: https://www.precidip.com/data/files/pdf/products/pga-bga-plcc-sockets_en.pdf" H 3750 3600 50  0001 C CNN "Comment2"
-F 7 "DNP" H 3750 3600 50  0001 C CNN "DNP"
+F 7 "" H 3750 3600 50  0001 C CNN "DNP"
 	1    3750 3600
 	1    0    0    -1  
 $EndComp

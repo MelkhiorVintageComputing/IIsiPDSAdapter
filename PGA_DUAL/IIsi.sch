@@ -261,7 +261,7 @@ F 10 "" H 5100 375 50  0001 L CNN "Arrow Part Number"
 F 11 "" H 5100 275 50  0001 L CNN "Arrow Price/Stock"
 F 12 "650906-5" H 4250 1075 50  0001 C CNN "MPN"
 F 13 "https://www.lcsc.com/product-detail/Mezzanine-Connectors-Board-to-Board_TE-Connectivity-650906-5_C3652939.html" H 4250 1075 50  0001 C CNN "URL"
-F 14 "DNP" H 4250 1075 50  0001 C CNN "DNP"
+F 14 "" H 4250 1075 50  0001 C CNN "DNP"
 	1    4250 1075
 	1    0    0    -1  
 $EndComp
