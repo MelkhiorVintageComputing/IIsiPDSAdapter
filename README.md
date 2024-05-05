@@ -22,4 +22,4 @@ Also known to work at 40 MHz with a IIsiFPGA in the second slot.
 
 ## PGA-DUAL
 
-Not yet built, untested.
+MC68882 FPU tested and working at 20 MHz (system clock) alongside a IIsiFPGA ans IIsiSEthernet, although [with some questions about signal integrity and/or timings](https://68kmla.org/bb/index.php?threads/sethernet-and-sethernet-30-a-new-take-on-pds-ethernet.45888/post-531637).
